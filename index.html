@@ -7,14 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <img class="logo" src="./assets/logo.png" alt="logo-swimmers">
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#mylist">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="mylist">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mb-3"> <a class="nav-link text-white" href="#">Home</a> </li>
+                        <li class="nav-item mb-3"> <a class="nav-link text-white" href="#row-cursos">Courses</a> </li>
+                        <li class="nav-item mb-3"> <a class="nav-link text-white" href="#row-servicios">Services</a></li>
+                        <li class="nav-item mb-3"> <a class="nav-link text-white" href="#row-nosotros">About</a></li>
+                        <li class="nav-item mb-3"> <a class="nav-link text-white" href="#row-contacto">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="container">
@@ -154,5 +167,49 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
 </body>
+<footer>
+    <div class="row text-white">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-lg-4 px-5">
+                    <h4 class="fw-bold mb-4">ABOUT</h4>
+                    <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​.</p>
+                </div>
+                <div class="col-lg-4 px-5">
+                    <h4 class="fw-bold mb-4">CREDITS</h4>
+                    <ul>
+                        <li><a href="https://www.freepik.com/photos/swimming-swimmer">Swimming swimmer photo created by freepik - www.freepik.com</a></li>
+                        <li><a href="https://www.freepik.com/photos/swimming-swimmer">Swimming swimmer photo created by freepik - www.freepik.com</a></li>
+                        <li><a href="https://www.freepik.com/photos/swimmer">Swimmer photo created by drobotdean - www.freepik.com</a></li>
+                        <li><a href="https://www.freepik.com/photos/swimmer">Swimmer photo created by drobotdean - www.freepik.com</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-4 px-5">
+                    <h4 class="fw-bold mb-4">CONTACT US</h4>
+                    <div class="d-flex">
+                        <span class="material-symbols-outlined">
+                        call
+                        </span>
+                        <p class="ms-3">(+00)(000)(000 5555)</p>
+                    </div>
+
+                    <div class="d-flex">
+                        <span class="material-symbols-outlined">
+                            house
+                            </span>
+                        <p class="ms-3">Jr.Lorem Ipsum 352</p>
+                    </div>
+
+                    <div class="d-flex"><span class="material-symbols-outlined">
+                        mail
+                        </span>
+                        <p class="ms-3">swimmers@swimmers.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>

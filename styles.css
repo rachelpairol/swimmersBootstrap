@@ -110,3 +110,25 @@ header {
 .form-control {
     border-radius: 50px;
 }
+
+footer {
+    background-color: #000034;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:992px) {
+    .navbar-nav {
+        background-color: #5080E5;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-left: 20px;
+    }
+}
+
+nav {
+    z-index: 100;
+}
